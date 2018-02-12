@@ -1,15 +1,33 @@
-a{color:red;
-font-size: 26px
+.main-container {
+  max-width: 960px;
+  margin:auto;
 }
-div{ есть 4 ре способа указать цвет color: red-строковые константы 
-color: #9CCAD9 ; html-hex
-color:RGB ;
-color:rgba(255,0,0,0.5); чтобы подчеркнуть прозрачность
+.site-menu,
+.sidebar {
+  width: 20%;
 }
-либо колорпикер, либо колормания-программа
-селектор по идентификатору 
- #moya ssylka{
- color:lime;}
+.main-content {
+  width: 60%;
+  background-color: LightPink;
+  box-sizing: border-box;
+}
+.site-menu {
+  background-color: LightGoldenRodYellow;
+}
+.sidebar {
+  background-color: LightSteelBlue;
+}
+.site-menu,
+.main-content,
+.sidebar {
+float: left;
+}
+div {
+margin-bottom: 10px;
+input[type="text"]
+input[type="email"] {
+border: 10px solid blue;
+}
  
 
 
